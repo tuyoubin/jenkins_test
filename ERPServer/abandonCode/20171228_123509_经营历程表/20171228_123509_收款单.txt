@@ -1,0 +1,20 @@
+单据编号		SKD##-20000101-010101
+销售商		seller1
+操作员		user1
+转账列表
+银行账户名		转账金额		备注
+xaccount1		20.3		xremark1
+xaccount2		65.4		xremark2
+总额汇总		85.7
+
+
+单据编号		SKD##-20100202-020202
+销售商		seller2
+操作员		user2
+转账列表
+银行账户名		转账金额		备注
+yaccount1		205.3		yremark1
+yaccount2		659.4		yremark2
+总额汇总		864.7
+
+

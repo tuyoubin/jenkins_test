@@ -1,0 +1,24 @@
+单据编号		XJFYD-20000101-010101
+操作员		user1
+银行账户名		acount1
+
+转账列表
+条目名		金额		备注
+xitem1		5.5		xremark1
+xitem1		10.0		xremark2
+
+总额		15.6
+
+
+单据编号		XJFYD-20100101-020202
+操作员		user2
+银行账户名		account2
+
+转账列表
+条目名		金额		备注
+yitem1		23.2		yremark1
+yitem2		56.3		yreamrk2
+
+总额		79.5
+
+
