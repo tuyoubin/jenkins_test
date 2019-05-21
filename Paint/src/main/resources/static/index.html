@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>欢迎使用画板！</title>
+    <link  rel="stylesheet" href="css/index.css">
+	<link rel="shortcut icon" href="favicon.ico" /> 
+    <script src="js/jquery-1.11.0.min.js"></script>
+
+</head>
+<body>
+    <aside class="LeftPanel">
+        <div class="leftDiv">
+            <p class="greeting">Welcome!<br><br> 欢迎使用画板程序 </p>
+            <button class="leftButton" onclick="jumpToPaint()">开始画图</button>
+        </div>
+    </aside>
+
+    <section class="ContentContainer">
+        <div class="topArea">
+            <p>你的文件</p>
+        </div>
+
+        <div class="fileListContainer">
+            <ul class="fileList" id="fileList">
+                <!--<li class="fileRow">
+                    <a href="paint.html?abc">
+                        <span class="fileNameText">
+                            test_file_item
+                        </span>
+                    </a>
+                </li>-->
+            </ul>
+            <p id="remind">暂时还没有文件!<br><br> <a href="paint.html">现在开始新建画图文件</a></p>
+        </div>
+    </section>
+
+    <script src="js/index.js"></script>
+
+</body>
+
+</html>

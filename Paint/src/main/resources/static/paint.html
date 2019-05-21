@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>画板</title>
+    <link  rel="stylesheet" href="css/paint.css">
+	<link rel="shortcut icon" href="favicon.ico" /> 
+    <script src="js/jquery-1.11.0.min.js"></script>
+</head>
+
+<body>
+
+    <section class="PaintBoard">
+        <div>
+            <canvas id="canvas" width="900" height="600">
+                您的浏览器不兼容，请升级！
+            </canvas>
+        </div>
+
+        <div id="shapeTagsOnCanvas"></div>
+        <div id="labelTagsOnCanvas"></div>
+    </section>
+
+    <aside class="LeftPanel">
+        <div class="leftDiv">
+            <p class="greeting">Welcome!<br><br> 欢迎使用画板程序 </p>
+            <button class="leftButton" id="paintButton" onclick="paintButtonClicked()">使用画笔</button>
+            <button class="leftButton" onclick="clearPaint()">重新作图</button>
+
+            <button class="leftButton" id="markButton" onclick="markButtonClicked()">开始标注</button>
+            <button class="leftButton" onclick="clearMark()">重新标注</button>
+
+            <button class="leftButton" onclick="saveAll()">保存图画</button>
+            <button class="leftButton" onclick="jumpToHome()">打开文件</button>
+        </div>
+    </aside>
+
+
+    <aside class="RightPanel">
+        <div class="rightDiv">
+            <p>请选择欲标注的矩形框编号</p>
+            <select id="frameIdSelector" onclick="selectFrameId()" title="请选择欲标注的矩形框编号，当你未框选时，下拉框为空"></select>
+            <p>请填写标注：</p>
+            <input type="text" id="inputLabel" placeholder="请输入标注内容">
+            <button onclick="addLabel()">添加标注</button>
+        </div>
+    </aside>
+
+<script src="js/common.js"></script>
+<script src="js/Paint.js"></script>
+<script src="js/Mark.js"></script>
+<script src="js/canvas.js"></script>
+</body>
+</html>

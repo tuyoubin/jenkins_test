@@ -1,0 +1,72 @@
+.LeftPanel{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    background-color: #2b333d;
+}
+
+div.leftDiv{
+    margin-left: 6px;
+}
+
+p.greeting{
+    color: white;
+    font-size: 18px;
+}
+
+button.leftButton{
+    cursor: pointer;
+    width: 120px;
+    padding: 10px;
+    margin: 20px;
+    background-color: #428bca;
+    border-color: #357ebd;
+    color: #fff;
+    /*更改圆角属性*/
+    border-radius: 10px;
+    -moz-border-radius: 10px;/* firefox */
+    -webkit-border-radius: 10px;/* chrome,safari */
+    -khtml-border-radius: 10px; /* for old Konqueror browsers */
+    text-align: center;
+    /* 不显示边框虚线 */
+    outline: 0;
+    font-size:100%
+}
+
+.ContentContainer{
+    position: absolute;
+    top: 0;
+    left: 220px;
+    width: 800px;
+}
+
+
+
+.topArea{
+    border-bottom: 1px solid #EEE;
+}
+
+.fileList{
+    margin: 0;
+}
+.fileRow {
+    padding: 16px 0;
+    border-bottom: 1px solid #EEE;
+    display: block;
+    margin: 0;
+    left: 0;
+}
+
+.fileNameText{
+    /* display: inline-block; */
+    /*不允许换行*/
+    white-space: nowrap;
+    color: black;
+}
+
+a{
+    text-decoration: none;
+}

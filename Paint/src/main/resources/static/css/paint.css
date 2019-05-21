@@ -1,0 +1,76 @@
+canvas{border:1px solid green;}
+
+button.leftButton{
+    cursor: pointer;
+    width: 120px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #428bca;
+    border-color: #357ebd;
+    color: #fff;
+    /*更改圆角属性*/
+    border-radius: 10px;
+    -moz-border-radius: 10px;/* firefox */
+    -webkit-border-radius: 10px;/* chrome,safari */
+    -khtml-border-radius: 10px; /* for old Konqueror browsers */
+    text-align: center;
+    /* 不显示边框虚线 */
+    outline: 0;
+    font-size:100%
+}
+
+.PaintBoard{
+    position: absolute;
+    top: 25px;
+    left: 220px;
+}
+
+.LeftPanel{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    background-color: #2b333d;
+}
+
+p.greeting{
+    color: white;
+    font-size: 18px;
+}
+
+.RightPanel{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 250px;
+    height: 100%;
+    background-color: papayawhip;
+}
+
+div.leftDiv{
+    margin-left: 6px;
+}
+
+div.rightDiv{
+    margin-left: 6px;
+}
+
+p.shapeTagsOnCanvas{
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    font-size: 12px;
+    color: darkblue;
+}
+
+p.labelTagsOnCanvas{
+    position: absolute;
+    margin-top: 6px;
+    margin-left: 6px;
+    margin-bottom: 0px;
+    font-size: 12px;
+    color: red;
+}
